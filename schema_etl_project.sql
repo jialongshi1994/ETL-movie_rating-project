@@ -4,7 +4,7 @@ CREATE TABLE imdb_df (
 )
 
 CREATE TABLE nyt_df (
-	movie_names TEXT,
+	movie_names TEXT PRIMARY KEY,
 	mpaa_rating TEXT,
 	critics_pick INT,
 	byline TEXT,
@@ -13,7 +13,7 @@ CREATE TABLE nyt_df (
 )
 
 CREATE TABLE rotten_df (
-	movie_name TEXT,
+	movie_name TEXT PRIMARY KEY,
 	meter_class TEXT,
 	meter_score INT
 )
